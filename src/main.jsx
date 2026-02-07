@@ -6,6 +6,7 @@ import App from './App.jsx'
 import AppDay1 from'./day-1-component.jsx'
 import AppDay2 from'./day-2-conditional-render.jsx'
 import UserListToggle from'./day-3-useState-and-eventHandling.jsx'
+import UserManager from'./day-4-useState-ARRAY-OBJECT.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 3: useState and event handling */}
         <Route path="/day3" element={<UserListToggle />} />
+
+        {/* halaman day 4: useState with array and object */}
+        <Route path="/day4" element={<UserManager />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
