@@ -28,7 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <a href="./day-1-component.jsx">latihan</a>
+      <a href="./day1">latihan</a>
     </>
   )
 }
