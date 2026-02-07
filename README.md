@@ -1,0 +1,1 @@
+This repository is used to practice React. I will update this repo daily with small exercises and notes.
