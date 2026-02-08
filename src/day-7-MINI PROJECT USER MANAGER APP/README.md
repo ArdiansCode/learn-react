@@ -21,11 +21,3 @@ Underage → abu-abu
 3️⃣ DELETE USER
 Tiap user punya tombol ❌
 Klik → user langsung hilang
-
-4️⃣ CLEAN CODE (PENTING)
-Component terpisah:
-UserForm
-UserList
-UserItem
-Logic state di parent
-Child component presentational
