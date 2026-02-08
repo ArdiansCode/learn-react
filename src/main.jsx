@@ -10,6 +10,7 @@ import UserManager from'./day-4-useState-ARRAY-OBJECT.jsx'
 import FetchUserData from'./day-5-useEffect-lifecycle-fetchData.jsx'
 import UserForm from'./day-6-form-input-controlledComponent.jsx'
 import AppUserManager from './day-7-MINI PROJECT USER MANAGER APP/userManagerApp.jsx'
+// import AppDay20Task from './day-8-react-memo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -38,6 +39,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 7: mini project user manager app */}
         <Route path="/day7" element={<AppUserManager />} />
+
+        {/* halaman day 8: react.memo */}
+        {/* <Route path='/day8' element={<AppDay20Task />} /> */}
       </Routes>
     </BrowserRouter>
   </StrictMode>,
