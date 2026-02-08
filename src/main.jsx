@@ -8,6 +8,7 @@ import AppDay2 from'./day-2-conditional-render.jsx'
 import UserListToggle from'./day-3-useState-and-eventHandling.jsx'
 import UserManager from'./day-4-useState-ARRAY-OBJECT.jsx'
 import FetchUserData from'./day-5-useEffect-lifecycle-fetchData.jsx'
+import UserForm from'./day-6-form-input-controlledComponent.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -30,6 +31,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 5: useEffect, lifecycle, fetch data */}
         <Route path="/day5" element={<FetchUserData />} />
+
+        {/* halaman day 6: form input controlled component */}
+        <Route path="/day6" element={<UserForm />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
