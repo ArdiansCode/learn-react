@@ -9,6 +9,7 @@ import UserListToggle from'./day-3-useState-and-eventHandling.jsx'
 import UserManager from'./day-4-useState-ARRAY-OBJECT.jsx'
 import FetchUserData from'./day-5-useEffect-lifecycle-fetchData.jsx'
 import UserForm from'./day-6-form-input-controlledComponent.jsx'
+import AppUserManager from './day-7-MINI PROJECT USER MANAGER APP/userManagerApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -34,6 +35,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 6: form input controlled component */}
         <Route path="/day6" element={<UserForm />} />
+
+        {/* halaman day 7: mini project user manager app */}
+        <Route path="/day7" element={<AppUserManager />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
