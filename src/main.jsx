@@ -11,6 +11,7 @@ import FetchUserData from'./day-5-useEffect-lifecycle-fetchData.jsx'
 import UserForm from'./day-6-form-input-controlledComponent.jsx'
 import AppUserManager from './day-7-MINI PROJECT USER MANAGER APP/userManagerApp.jsx'
 // import AppDay20Task from './day-8-react-memo.jsx'
+import AppDay9 from './day-9-hook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -42,6 +43,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 8: react.memo */}
         {/* <Route path='/day8' element={<AppDay20Task />} /> */}
+
+        {/* halaman day 9: hook */}
+        <Route path="/day9" element={<AppDay9 />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
