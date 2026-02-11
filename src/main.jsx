@@ -12,6 +12,7 @@ import UserForm from'./day-6-form-input-controlledComponent.jsx'
 import AppUserManager from './day-7-MINI PROJECT USER MANAGER APP/userManagerApp.jsx'
 // import AppDay20Task from './day-8-react-memo.jsx'
 import AppDay9 from './day-9-hook.jsx'
+import FetchUsersSafe from './day-10-error-handling.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -46,6 +47,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 9: hook */}
         <Route path="/day9" element={<AppDay9 />} />
+
+        {/* halaman day 10: error handling*/}
+        <Route path="/day10" element={<FetchUsersSafe />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
