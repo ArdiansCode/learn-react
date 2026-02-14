@@ -76,6 +76,10 @@ li {
   margin: 6px;
 }
 
+.checkbox {
+  width: 24px;
+  height: 24px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

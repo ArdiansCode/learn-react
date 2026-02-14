@@ -14,6 +14,7 @@ import AppUserManager from './day-7-MINI PROJECT USER MANAGER APP/userManagerApp
 import AppDay9 from './day-9-hook.jsx'
 import FetchUsersSafe from './day-10-error-handling.jsx'
 import AppDay11 from './day-11.jsx'
+import AppTaskManager from './task-manager.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -54,6 +55,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 11: localStorage*/}
         <Route path="/day11" element={<AppDay11 />} />
+
+        {/* halaman day 12: App task manager*/}
+        <Route path="/day12" element={<AppTaskManager />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
