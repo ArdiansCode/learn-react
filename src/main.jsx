@@ -15,6 +15,7 @@ import AppDay9 from './day-9-hook.jsx'
 import FetchUsersSafe from './day-10-error-handling.jsx'
 import AppDay11 from './day-11.jsx'
 import AppTaskManager from './task-manager.jsx'
+import AppTaskManager2 from './day-13-usereduce.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -58,6 +59,9 @@ createRoot(document.getElementById('root')).render(
 
         {/* halaman day 12: App task manager*/}
         <Route path="/day12" element={<AppTaskManager />} />
+
+        {/* halaman day 12: App task manager*/}
+        <Route path="/day13" element={<AppTaskManager2 />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
